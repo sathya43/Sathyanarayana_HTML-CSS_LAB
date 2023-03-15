@@ -1,0 +1,45 @@
+video {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.form-container {
+  left: 40%;
+  top: 42%;
+
+  position: absolute;
+  border: 2px solid black;
+  padding: 20px 40px;
+  border-radius: 4px;
+}
+
+.field {
+  padding: 10px;
+  border: none;
+  background-color: whitesmoke;
+  width: 300px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-radius: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.field:focus {
+  color: white;
+  background-color: steelblue;
+  opacity: 0.6;
+}
+
+button {
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  height: 30px;
+  width: 80px;
+  margin: 15px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #af66f2;
+}
